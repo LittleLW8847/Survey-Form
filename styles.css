@@ -22,7 +22,7 @@ form{
 label{
     display: block;
 }
-input{
+input, select{
     width: 100%;
     margin-bottom: 10px;
 }

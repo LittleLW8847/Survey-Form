@@ -13,9 +13,21 @@
         <h1 id="title">Survey Form</h1>
         <p id="description">Thank you for taking the time for feed back</p>
         <form id="survey-form">
-            <label>Name <input id="name" type="text" required></label>
-            <label>Email <input id="email" type="email" required></label>
-            <label>Age(optional) <input id="number" type="number" min="5" max="100"></label>
+            <fieldset>
+                <label id="name-label">Name <input id="name" type="text" required placeholder="your name please"></label>
+                <label id="email-label">Email <input id="email" type="email" required placeholder="Joemama@joever.com"></label>
+                <label id="number-label">Age(optional) <input id="number" type="number" min="5" max="100" placeholder="ladies, your age please"></label>
+                <label>
+                    Your current job
+                    <select id="dropdown" placeholder="your current position">
+                        <option>Student</option>
+                        <option>Graduate</option>
+                        <option>Unemployed</option>
+                        <option>prefer to not talk about</option>
+                    </select>
+                </label>
+            </fieldset>
+            
         </form>
     </body>
 </html>
