@@ -15,6 +15,14 @@ form{
     max-width: 800px;
     min-width: 300px;
     width: 75vw;
-    padding: 0 0 2em 0;
+    padding: 10px 15px 10px 15px;
     background-color: rgba(5, 114, 141, 0.8);
+}
+
+label{
+    display: block;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
 }
