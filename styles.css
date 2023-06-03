@@ -26,10 +26,38 @@ label{
 input, select{
     width: 100%;
     margin-bottom: 10px;
+    min-height: 2em;
+    border: none;
+    border-radius: 3px;
 }
 
+input[type="checkbox"], input[type="radio"]{
+    margin-top: -2px;
+}
+
+input[type="submit"]{
+    display: block;
+    color: white;
+    width: 95%;
+    height: 1em;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    background-color: #37af65; 
+    border: none;   
+    border-radius: 3px;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 100%;
+}
 .inline{
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
+
+fieldset{
+    border: none;
+}
+
