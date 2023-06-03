@@ -22,7 +22,14 @@ form{
 label{
     display: block;
 }
+
 input, select{
     width: 100%;
     margin-bottom: 10px;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
 }

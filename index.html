@@ -10,7 +10,7 @@
         
     </head>
     <body>
-        <h1 id="title">Survey Form</h1>
+        <h1 id="title">Cafe Service Survey Form</h1>
         <p id="description">Thank you for taking the time for feed back</p>
         <form id="survey-form">
             <fieldset>
@@ -25,9 +25,27 @@
                         <option>Unemployed</option>
                         <option>prefer to not talk about</option>
                     </select>
-                </label>
+                
             </fieldset>
-            
+            <fieldset>
+                Rate the service
+                <label><input name="rating" type="radio" class="inline" value="5"> Very Satisfy </label>
+                <label><input name="rating" type="radio" class="inline" value="4"> Satisfy</label>
+                <label><input name="rating" type="radio" class="inline" value="3"> Neutral</label>
+                <label><input name="rating" type="radio" class="inline" value="2"> Dissatisfy</label>
+                <label><input name="rating" type="radio" class="inline" value="1"> Very Dissatisfy</label>
+            </fieldset>
+            <fieldset>
+                What do you want us to improve(Check all that apply)
+                <label><input type="checkbox" value="Food-improve" class="inline"> Food Quality(taste)</label>
+                <label><input type="checkbox" value="Price-cheaper" class="inline"> Food Price(cheaper)</label>
+                <label><input type="checkbox" value="Food-amount" class="inline"> Food Quantity</label>
+                <label><input type="checkbox" value="Board-Game-Variety" class="inline"> More Board game variety</label>
+                <label><input type="checkbox" value="More-Comics" class="inline"> More Comics</label>
+                <label><input type="checkbox" value="More-Manga" class="inline"> More Manga</label>
+                <label><input type="checkbox" value="atmosphere" class="inline"> Atmosphere</label>
+            </fieldset>
+
         </form>
     </body>
 </html>
